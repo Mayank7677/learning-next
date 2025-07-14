@@ -6,7 +6,7 @@ const InterceptedPage = async ({ params }) => {
 
   const findProduct = products.find((a) => a.id === +product);
     return (
-      <div className="fixed inset-0 flex flex-col justify-center items-center bg-green-400"> 
+      <div className="fixed inset-0 flex flex-col justify-center items-center bg-black/80"> 
         InterceptedPage
         <div className="mt-30 p-10">
           <div key={findProduct.id} className="border p-3">
